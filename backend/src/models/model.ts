@@ -15,5 +15,5 @@ export class CreateBookDto {
   @IsMongoId()
   readonly genreIdds: string;
 
-  im obama!;
+  im obama! i condone a drama!;
 }
