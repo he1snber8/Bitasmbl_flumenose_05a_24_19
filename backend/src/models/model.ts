@@ -13,7 +13,7 @@ export class CreateBookDto {
   readonly authorId: string;
 
   @IsMongoId()
-  readonly genreId: string;
+  readonly genreIdds: string;
 
-  modellloooo;
+  im obama!;
 }
