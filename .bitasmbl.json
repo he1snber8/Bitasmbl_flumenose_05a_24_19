@@ -1,0 +1,52 @@
+{
+  "projectName": "Team Workspace API",
+  "projectOverview": "Build a team workspace API using NestJS with modules, controllers, services, DTOs, validation, and member role management.",
+  "techStackId": 122,
+  "projectId": 404,
+  "requirements": [
+    {
+      "id": 913,
+      "header": "Define workspace domain",
+      "description": "Create workspace, member, and invitation models with roles, status, and timestamps.",
+      "paths": [
+        "**/src/**/entities/**",
+        "**/src/models/**",
+        "**/src/**/schemas/**"
+      ],
+      "projectRequirementMilestones": []
+    },
+    {
+      "id": 914,
+      "header": "Build workspace endpoints",
+      "description": "Implement NestJS modules, controllers, and services for workspace and member management.",
+      "paths": [
+        "**/src/**/controllers/**",
+        "**/src/**/services/**",
+        "**/src/**/modules/**"
+      ],
+      "projectRequirementMilestones": []
+    },
+    {
+      "id": 915,
+      "header": "Implement workspace validation",
+      "description": "Add DTO validation and role-based rules for workspace actions.",
+      "paths": [
+        "**/src/**/dto/**",
+        "**/src/**/guards/**",
+        "**/src/**/validators/**"
+      ],
+      "projectRequirementMilestones": []
+    }
+  ],
+  "projectApplicationId": 24,
+  "currentWorkingProject": "https://github.com/he1snber8/Bitasmbl_flumenose_05a_24_19",
+  "domains": [
+    {
+      "name": "BackEnd",
+      "tech": ["NestJS"],
+      "initializedLocally": false,
+      "repo": "https://github.com/he1snber8/Bitasmbl_flumenose_05a_24_19",
+      "localPath": "/Users/lukakhaja/Bitasmbl_flumenose_05a_24_19"
+    }
+  ]
+}
