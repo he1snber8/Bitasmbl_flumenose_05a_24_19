@@ -148,7 +148,7 @@ jobs:
 
           RESPONSE=$(curl -s \
             -w "\n%{http_code}" \
-            -X POST "57f9-176-221-143-53.ngrok-free.app/projects/evaluate-code-diff" \
+            -X POST "https://57f9-176-221-143-53.ngrok-free.app/projects/evaluate-project-units" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $BITASMBL_TOKEN" \
             -d "$PAYLOAD")
