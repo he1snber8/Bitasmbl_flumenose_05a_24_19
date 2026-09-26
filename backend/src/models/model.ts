@@ -14,4 +14,6 @@ export class CreateBookDto {
 
   @IsMongoId()
   readonly genreId: string;
+
+  modellloooo;
 }
